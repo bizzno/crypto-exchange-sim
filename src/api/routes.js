@@ -1,0 +1,14 @@
+// API routes for exchange simulator
+const express = require('express');
+const router = express.Router();
+
+router.get('/orderbook', (req, res) => {
+  res.json({ buy: [], sell: [] });
+});
+
+router.post('/order', (req, res) => {
+  res.json({ status: 'placed' });
+});
+
+module.exports = router;
+Update 4 on 2014-04-13 22:17:56
