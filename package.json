@@ -1,0 +1,8 @@
+{
+  "name": "crypto-exchange-sim",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
+Update 10 on 2014-04-14 21:30:20
